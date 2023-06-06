@@ -3,26 +3,26 @@
     src: url(./LibreBaskerville-Regular.ttf);
 }
 
-html{
+body {
     background-color: black;
 }
 
-div{
-    margin : 20%
-
-}
-img{
-    border:5px white;
-    width: 100%;
-
-}
-
-h1{
+div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
     font-family: "Libre-Baskerville";
-    text-transform: uppercase;
     color: white;
+    text-align: center;
 }
 
-p{
-    color: white;
+#daenerys {
+    width: 100%;
+    border: 5px solid white;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
 }
